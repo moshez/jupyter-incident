@@ -1,0 +1,1 @@
+sudo docker build --build-arg sshkey="$(cat ~/.ssh/id_rsa.pub)" -t moshez/ssh -f sshd.dockerfile .
